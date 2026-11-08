@@ -11,8 +11,8 @@ installed() {
 
 installed && exit 0
 
-if ! gh extension install nmoinvaz/gh-arriba >/dev/null 2>&1 || ! installed; then
+if ! gh extension install arriba-tools/gh-arriba >/dev/null 2>&1 || ! installed; then
   echo "The gh-arriba GitHub CLI extension is missing and could not be installed. If the user runs" \
-    "a GitHub command from the arriba plugin, tell them to run: gh extension install nmoinvaz/gh-arriba"
+    "a GitHub command from the arriba plugin, tell them to run: gh extension install arriba-tools/gh-arriba"
 fi
 exit 0

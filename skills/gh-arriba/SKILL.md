@@ -6,9 +6,9 @@ allowed-tools: Bash(gh arriba --version)
 
 # gh-arriba Quick Reference
 
-[gh-arriba](https://github.com/arriba-tools/gh) is the `gh` extension this project's GitHub workflows
-use. It covers what `gh` lacks or gets wrong, such as review threads, pending reviews, and signed
-rebases.
+[gh-arriba](https://github.com/arriba-tools/gh-arriba) is the `gh` extension this project's GitHub
+workflows use. It covers what `gh` lacks or gets wrong, such as review threads, pending reviews, and
+signed rebases.
 
 ## Prerequisites
 
@@ -17,7 +17,7 @@ Installed version:
 !`gh arriba --version 2>&1 || echo "gh-arriba is not installed"`
 
 The plugin installs it at session start. If it is still missing, tell the user to run
-`gh extension install nmoinvaz/gh-arriba` and stop.
+`gh extension install arriba-tools/gh-arriba` and stop.
 
 ## Conventions
 
