@@ -9,11 +9,11 @@ Claude Code marketplace plugin that speeds up everyday dev workflows.
 /plugin install arriba@speedy-gonzales
 ```
 
-The GitHub commands call the [gh-arriba](https://github.com/arriba-tools/gh) extension. The plugin
-installs it at the start of a session when it is missing, or install it yourself:
+The GitHub commands call the [gh-arriba](https://github.com/arriba-tools/gh-arriba) extension. The
+plugin installs it at the start of a session when it is missing, or install it yourself:
 
 ```bash
-gh extension install nmoinvaz/gh-arriba
+gh extension install arriba-tools/gh-arriba
 ```
 
 The Jira commands call the [jira-arriba](https://github.com/arriba-tools/jira) CLI. Download it
@@ -58,7 +58,7 @@ cargo install --git https://github.com/arriba-tools/testrail
 ## Requirements
 
 - [GitHub CLI](https://cli.github.com/) (`gh`) - most commands
-- [gh-arriba](https://github.com/arriba-tools/gh) extension - GitHub and Dependabot commands and the `/gh-arriba` skill, installed automatically
+- [gh-arriba](https://github.com/arriba-tools/gh-arriba) extension - GitHub and Dependabot commands and the `/gh-arriba` skill, installed automatically
 - [jira-arriba](https://github.com/arriba-tools/jira) - Jira commands and the `/jira-arriba` skill (optional)
 - [Atlassian CLI](https://developer.atlassian.com/cloud/acli/) (`acli`) - the login `jira-arriba` uses unless `JIRA_*` variables are set (optional)
 - [testrail-arriba](https://github.com/arriba-tools/testrail) - `/testrail` skill (optional)
