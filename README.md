@@ -37,7 +37,6 @@ cargo install --git https://github.com/arriba-tools/testrail
 | Command | Description |
 |---------|-------------|
 | `/comment-cleanup` | Walk through changed comments and pick a writing variation |
-| `/fixup` | Apply staged changes to a previous commit |
 | `/gh-pr-fix` | Verify and fix unresolved PR review comments |
 | `/gh-release` | Trigger a GitHub release workflow |
 | `/dependabot-merge` | Interactively review and merge Dependabot PRs |
