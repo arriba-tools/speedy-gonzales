@@ -46,6 +46,7 @@ cargo install --git https://github.com/arriba-tools/testrail
 
 | Skill | Description |
 |-------|-------------|
+| `/diagram` | House style and grid-layout primitives for Python-rendered SVG and ASCII diagrams |
 | `/extract-asm` | Extract function assembly from an object or assembly file |
 | `/gh-arriba` | GitHub extension (`gh arriba`) commands for review threads, pending reviews, checks, rebases, releases, and Dependabot |
 | `/graph-data` | House style and shared SVG primitives for Python-rendered data graphs |
